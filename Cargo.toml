@@ -13,6 +13,7 @@ serde_derive = "1.0.9"
 rand = "0.8.5"
 url = "2.3.1"
 vercel_runtime = "0.3.4"
+minreq = {version = "2.7.0", features=["https-rustls"]}
 
 [lib]
 path = "src-rs/lib.rs"
@@ -22,9 +23,5 @@ name = "simple"
 path = "api/simple.rs"
 
 [[bin]]
-name = "complex"
-path = "api/complex.rs"
-
-[[bin]]
-name = "_id_"
-path = "api/user/[id].rs"
+name = "describe"
+path = "api/describe.rs"
