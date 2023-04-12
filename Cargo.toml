@@ -19,8 +19,8 @@ minreq = {version = "2.7.0", features=["https-rustls"]}
 path = "src-rs/lib.rs"
 
 [[bin]]
-name = "simple"
-path = "api/simple.rs"
+name = "status"
+path = "api/status.rs"
 
 [[bin]]
 name = "describe"
